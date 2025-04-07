@@ -4,20 +4,20 @@ import Layout from './Components/Layout';
 import Menu from './Components/Menu';
 import Posts from './Components/Posts';
 import Users from './Components/Users';
+// import Header from './Components/Header';
 
-function App() {
+export default function App() {
     return (
         <>
             <Routes>
-                <Route>
-                    <Route path='/' element={<Layout />} />
-                    <Route path='/menu' element={<Menu />} />
+                <Route path='/' element={<Layout />}>
+                    {/* <Route index element={<Menu />} /> */}
                     <Route path='/posts' element={<Posts />} />
-                    <Route path='/contact' element={<Users />} />
+                    <Route path='/users' element={<Users />} />
                 </Route>
             </Routes>
         </>
     );
 }
 
-export default App;
+// export default App;

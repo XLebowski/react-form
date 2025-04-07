@@ -1,8 +1,11 @@
-
-import React from 'react'
+import { NavLink } from 'react-router-dom';
+// import React from 'react'
 
 export default function Menu() {
-  return (
-    <div>Menu</div>
-  )
+    return (
+        <section className='menu'>
+            <NavLink to='/posts'>Posts</NavLink>
+            <NavLink to='/users'>Users</NavLink>
+        </section>
+    );
 }
