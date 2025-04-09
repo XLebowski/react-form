@@ -1,10 +1,9 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './Components/Layout';
-import Menu from './Components/Menu';
-import Posts from './Components/Posts';
-import Users from './Components/Users';
-import Search from './Components/Search';
+import Posts from './Components/Posts/Posts';
+import Users from './Components/Users/Users';
+import Search from './Components/Search/Search';
 // import Header from './Components/Header';
 
 export default function App() {

@@ -1,6 +1,6 @@
 // import React from 'react'
 import { useState } from 'react';
-import { data } from '../data';
+import { data } from '../../data';
 
 export default function Search() {
     const [search, setSearch] = useState('');
