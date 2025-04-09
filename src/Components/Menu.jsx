@@ -6,6 +6,7 @@ export default function Menu() {
         <section className='menu'>
             <NavLink to='/posts'>Posts</NavLink>
             <NavLink to='/users'>Users</NavLink>
+            <NavLink to='/search'>Search</NavLink>
         </section>
     );
 }

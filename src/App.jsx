@@ -4,6 +4,7 @@ import Layout from './Components/Layout';
 import Menu from './Components/Menu';
 import Posts from './Components/Posts';
 import Users from './Components/Users';
+import Search from './Components/Search';
 // import Header from './Components/Header';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
                     {/* <Route index element={<Menu />} /> */}
                     <Route path='/posts' element={<Posts />} />
                     <Route path='/users' element={<Users />} />
+                    <Route path='/search' element={<Search />} />
                 </Route>
             </Routes>
         </>
