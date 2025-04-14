@@ -513,31 +513,31 @@ export const data = [
     },
     {
         id: 129,
-        name: '',
+        name: 'RoRe Group',
     },
     {
         id: 130,
-        name: '',
+        name: 'Softline',
     },
     {
         id: 131,
-        name: '',
+        name: 'Data World',
     },
     {
         id: 132,
-        name: '33',
+        name: 'Postgres Professional',
     },
     {
         id: 133,
-        name: '',
+        name: 'Deltasoft',
     },
     {
         id: 134,
-        name: '',
+        name: 'okko',
     },
     {
         id: 135,
-        name: '',
+        name: 'Группа Ремедиум',
     },
     {
         id: 136,
