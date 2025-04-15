@@ -541,34 +541,62 @@ export const data = [
     },
     {
         id: 136,
-        name: '',
+        name: 'GSL Law & Consulting',
     },
     {
         id: 137,
-        name: '',
+        name: 'JustMedia',
     },
     {
         id: 138,
-        name: '',
+        name: 'Медиалогия',
     },
     {
         id: 139,
-        name: '',
+        name: 'CORE',
     },
     {
         id: 140,
-        name: '',
+        name: 'ЦИАН',
     },
     {
         id: 141,
-        name: '',
+        name: 'АО Р7',
     },
     {
         id: 142,
-        name: '',
+        name: 'KingBoost',
     },
     {
         id: 143,
+        name: 'ArtistHunt',
+    },
+    {
+        id: 144,
+        name: 'ИП Смирнов Денис Петрович',
+    },
+    {
+        id: 145,
+        name: 'Таргет Плюс',
+    },
+    {
+        id: 146,
+        name: 'Масалин Андрей Викторович',
+    },
+    {
+        id: 147,
+        name: 'WILDBERRIES',
+    },
+    {
+        id: 148,
+        name: 'VK, Учи.ру',
+    },
+    {
+        id: 149,
+        name: '',
+    },
+    {
+        id: 150,
         name: '',
     },
 ];
