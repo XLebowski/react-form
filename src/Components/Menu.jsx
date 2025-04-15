@@ -26,7 +26,7 @@ export default function Menu() {
                     }
                     onClick={handleClick}
                 >
-                    Users
+                    Clients
                 </NavLink>
                 <NavLink
                     to='/search'

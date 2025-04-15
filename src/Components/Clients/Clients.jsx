@@ -2,6 +2,6 @@
 
 export default function Clients() {
   return (
-    <div>Users</div>
+    <div>Clients</div>
   )
 }
