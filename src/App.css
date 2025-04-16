@@ -9,13 +9,16 @@ body {
 .layout-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: #edbfbf;
+  background-color: #fff;
   height: 100vh;
   width: 1200px;
   margin: auto;
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100px;
   width: 100%;
   background-color: #d8cfed;
@@ -100,4 +103,33 @@ body {
   margin-top: 10px;
   font-size: 24px;
   font-weight: 600;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+table th, table td {
+  text-align: left;
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
 }

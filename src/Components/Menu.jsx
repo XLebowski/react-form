@@ -20,7 +20,7 @@ export default function Menu() {
                 Posts
             </NavLink>
                 <NavLink
-                    to='/users'
+                    to='/clients'
                     className={({ isActive }) =>
                         isActive ? 'active menu-link' : 'menu-link'
                     }
@@ -36,6 +36,15 @@ export default function Menu() {
                     onClick={handleClick}
                 >
                     Search
+                </NavLink>
+                <NavLink
+                    to='/'
+                    className={({ isActive }) =>
+                        isActive ? 'active menu-link' : 'menu-link'
+                    }
+                    onClick={handleClick}
+                >
+                    На главную
                 </NavLink>
         </section>
     );
