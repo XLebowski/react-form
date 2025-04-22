@@ -4,8 +4,9 @@ import Layout from './Components/Layout';
 import Posts from './Components/Posts/Posts';
 import Clients from './Components/Clients/Clients';
 import Search from './Components/Search/Search';
-import { BASE_PATH, CLIENTS, POSTS, SEARCH } from './constants/path';
+import { BASE_PATH, CLIENTS, MOBX, POSTS, SEARCH } from './constants/path';
 import Main from './Components/Main/Main';
+import Mobx from './Components/Mobx/Mobx';
 
 export default function App() {
     return (
@@ -16,6 +17,7 @@ export default function App() {
                     <Route path={POSTS} element={<Posts />} />
                     <Route path={CLIENTS} element={<Clients />} />
                     <Route path={SEARCH} element={<Search />} />
+                    <Route path={MOBX} element={<Mobx />} />
                 </Route>
             </Routes>
         </>

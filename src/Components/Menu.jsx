@@ -38,6 +38,15 @@ export default function Menu() {
                     Search
                 </NavLink>
                 <NavLink
+                    to='/mobx'
+                    className={({ isActive }) =>
+                        isActive ? 'active menu-link' : 'menu-link'
+                    }
+                    onClick={handleClick}
+                >
+                    MobX
+                </NavLink>
+                <NavLink
                     to='/'
                     className={({ isActive }) =>
                         isActive ? 'active menu-link' : 'menu-link'

@@ -3,7 +3,7 @@
 import {
     useGetClientsQuery,
     // useGetPersonalClientsQuery,
-} from '../../api/ClientsApi';
+} from '../api/ClientsApi';
 import { useMemo } from 'react';
 
 export default function useGetClients() {

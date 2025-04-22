@@ -640,36 +640,36 @@ export const data = [
         name: 'Сравни',
     },
     {
-        id: 150,
-        name: '',
+        id: 161,
+        name: 'ООО Картнода',
     },
     {
-        id: 149,
-        name: '',
+        id: 162,
+        name: 'Lexicom',
     },
     {
-        id: 150,
-        name: '',
+        id: 163,
+        name: 'getmatch',
     },
     {
-        id: 149,
-        name: '',
+        id: 164,
+        name: 'Кадровое агенство КАДО',
     },
     {
-        id: 150,
-        name: '',
+        id: 165,
+        name: 'Круизный центр Инфофлот',
     },
     {
-        id: 149,
-        name: '',
+        id: 166,
+        name: 'Bell Integrator Регионы',
     },
     {
-        id: 150,
-        name: '',
+        id: 167,
+        name: 'Genotek',
     },
     {
-        id: 149,
-        name: '',
+        id: 168,
+        name: 'Генотек',
     },
     {
         id: 150,

@@ -3,5 +3,6 @@ export const BASE_PATH = '/';
 export const CLIENTS = 'clients';
 export const POSTS = 'posts';
 export const SEARCH = 'search';
+export const MOBX = 'mobx';
 
 export const editClient = (id) => `clients/${id}`

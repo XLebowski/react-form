@@ -4,7 +4,7 @@ import { useTable } from 'react-table';
 import { v4 as uuidv4 } from 'uuid';
 import { useEffect, useState } from 'react';
 // import { useGetClientsQuery } from '../../api/ClientsApi';
-import useGetClients from '../hooks/useGetClients';
+import useGetClients from '../../hooks/useGetClients';
 
 export default function Clients() {
     // const { data: clients } = useGetClientsQuery();
