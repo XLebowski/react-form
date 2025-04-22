@@ -1,10 +1,10 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query';
-import { BASE, CLIENTS, editClient } from '../constants/path';
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { editClient } from '../constants/path';
 
-export const ClientsApi = createApi({
+export const clientsApi = createApi({
     reducerPath: 'clientsApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: BASE,
+        baseUrl: 'https://67fe360c3da09811b17817d7.mockapi.io/',
         // prepareHeaders: (headers) => {
         //     const token = localStorage.getItem('token');
         //     if (token) {
@@ -16,13 +16,16 @@ export const ClientsApi = createApi({
     tagTypes: ['Clients'],
     endpoints: (build) => ({
         getClients: build.query({
-            query: () => ({
-                url: CLIENTS,
-                method: 'GET',
-            }),
+            query: () => {
+                // console.log('clients');
+                return {
+                    url: 'clients',
+                    method: 'GET',
+                };
+            },
             providesTags: ['Clients'],
         }),
-        getPersonalClient: build.query({
+        getPersonalClients: build.query({
             query: (id) => ({
                 url: editClient(id),
                 method: 'GET',
@@ -32,4 +35,4 @@ export const ClientsApi = createApi({
     }),
 });
 
-export const { useGetClientsQuery, useGetPersonalClientsQuery } = ClientsApi;
+export const { useGetClientsQuery, useGetPersonalClientsQuery } = clientsApi;

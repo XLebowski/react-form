@@ -44,7 +44,7 @@ export default function Menu() {
                     }
                     onClick={handleClick}
                 >
-                    На главную
+                    Главная
                 </NavLink>
         </section>
     );
