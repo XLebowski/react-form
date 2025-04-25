@@ -35,7 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 300px;
+  min-width: 150px;
   background-color: #daefc7;
   padding: 20px;
 }
@@ -111,6 +111,51 @@ body {
   font-weight: 600;
 }
 
+.mobx-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 400px;
+  background-color: #d8a6a6;
+  margin: auto;
+}
+
+.mobx-content {
+  margin-bottom: 10px;
+}
+
+.mobx-button {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  width: 50px;
+  height: 25px;
+  color: #fff;
+  background-color: #380606;
+}
+
+.btn:first-child {
+  margin-right: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #5b0f0f;
+  transform: scale(1.1);
+}
+
+.users-mobx-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -139,4 +184,23 @@ table th {
   text-align: center;
   background-color: #4CAF50;
   color: white;
+}
+
+.form-mobx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.serch-label-mobx {
+  width: 90%;
+  margin: auto;
+}
+
+.searh-input-mobx {
+  width: 100%;
+  height: 30px;
 }

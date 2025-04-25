@@ -1,6 +1,6 @@
 // import React from 'react'
-import { useState } from 'react';
-import { data } from '../../data';
+import { useEffect, useState } from 'react';
+import { data } from '../../data.js';
 
 export default function Search() {
     const [search, setSearch] = useState('');
@@ -8,13 +8,16 @@ export default function Search() {
 
     const handleSearch = (e) => {
         e.preventDefault();
-        setResults(
-            data.filter((item) =>
-                item.name.toLowerCase().includes(search.toLowerCase())
-            )
+        const dataResult = data.filter((item) =>
+            item.name.toLowerCase().includes(search.toLowerCase())
         );
-        setSearch('');
+        setResults(dataResult);
+        // setSearch('');
     };
+
+    useEffect(() => {
+        if (!search.length) setResults('');
+    }, [search]);
 
     return (
         <>
@@ -30,6 +33,9 @@ export default function Search() {
                 </label>
                 <button type='submit' className='search-button'>
                     Найти
+                </button>
+                <button type='button' className='search-button' onClick={() => setSearch('')}>
+                    Очистить
                 </button>
             </form>
             {results.length > 0 ? (

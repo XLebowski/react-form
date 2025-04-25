@@ -4,14 +4,7 @@ import { editClient } from '../constants/path';
 export const clientsApi = createApi({
     reducerPath: 'clientsApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'https://67fe360c3da09811b17817d7.mockapi.io/',
-        // prepareHeaders: (headers) => {
-        //     const token = localStorage.getItem('token');
-        //     if (token) {
-        //         headers.set('Authorization', `Token ${token}`);
-        //     }
-        //     return headers;
-        // }
+        baseUrl: 'https://jsonplaceholder.typicode.com/',
     }),
     tagTypes: ['Clients'],
     endpoints: (build) => ({

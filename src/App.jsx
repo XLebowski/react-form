@@ -6,9 +6,10 @@ import Clients from './Components/Clients/Clients';
 import Search from './Components/Search/Search';
 import { BASE_PATH, CLIENTS, MOBX, POSTS, SEARCH } from './constants/path';
 import Main from './Components/Main/Main';
-import Mobx from './Components/Mobx/Mobx';
+import Mobx from './Components/Mobx/Mobx.jsx';
 
-export default function App() {
+
+function App() {
     return (
         <>
             <Routes>
@@ -24,4 +25,4 @@ export default function App() {
     );
 }
 
-// export default App;
+export default App;
