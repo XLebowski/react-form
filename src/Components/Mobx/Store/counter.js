@@ -1,5 +1,4 @@
 // import { Component } from 'react'
-
 import { makeAutoObservable } from 'mobx';
 
 function Counter() {

@@ -12,15 +12,12 @@ function FormStore() {
         },
         updateUsers() {
             if (this.users.length < 1) {
-                fetch(
-                    'https://jsonplaceholder.typicode.com/users'
-                )
-                .then((response) => response.json())
-                .then((json) => {
-                    this.users = [...this.users, ...json];
-                    console.log(this.users);
-                })
-                
+                fetch('https://jsonplaceholder.typicode.com/users')
+                    .then((response) => response.json())
+                    .then((json) => {
+                        this.users = [...this.users, ...json];
+                        console.log(this.users);
+                    });
             }
         },
     });

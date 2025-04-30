@@ -729,171 +729,171 @@ export const data = [
     },
     {
         id: 183,
-        name: '',
+        name: 'Antal Talent',
     },
     {
         id: 184,
-        name: '',
+        name: 'Invision',
     },
     {
         id: 185,
-        name: '',
+        name: 'ИП Киселев Василий Андреевич',
     },
     {
         id: 186,
-        name: '',
+        name: 'TradeLink',
     },
     {
         id: 187,
-        name: '',
+        name: 'Островок.Ostrovok!Tech',
     },
     {
         id: 188,
-        name: '',
+        name: 'ООО Звук',
     },
     {
         id: 189,
-        name: '',
+        name: 'ООО Газпром бурение',
     },
     {
         id: 190,
-        name: '',
+        name: 'ООО Цифровые технологии и платформы',
     },
     {
         id: 191,
-        name: '',
+        name: 'ГУП Мосгортранс',
     },
     {
         id: 192,
-        name: '',
+        name: 'Lofty MyBid',
     },
     {
         id: 193,
-        name: '',
+        name: 'Национальный расчетный депозитарий',
     },
     {
         id: 194,
-        name: '',
+        name: 'ЗАО Научно-исследовательский центр Югранефтегаз',
     },
     {
         id: 195,
-        name: '',
+        name: 'ООО Татикома системс',
     },
     {
         id: 196,
-        name: '',
+        name: 'ООО Секретные Агенты',
     },
     {
         id: 197,
-        name: '',
+        name: 'ООО БКХ Еком',
     },
     {
         id: 198,
-        name: '',
+        name: 'Hunt For You',
     },
     {
         id: 199,
-        name: '',
+        name: 'Дата Маркетинг',
     },
     {
         id: 200,
-        name: '',
+        name: 'AppsTrain',
     },
     {
         id: 201,
-        name: '',
+        name: 'CatHouse Ворошилов Андрей',
     },
     {
         id: 202,
-        name: '',
+        name: 'Lidera Сизинцев Роман',
     },
     {
         id: 203,
-        name: '',
+        name: 'RedLab',
     },
     {
         id: 204,
-        name: '',
+        name: 'мастер лаб',
     },
     {
         id: 205,
-        name: '',
+        name: 'Iconicompany',
     },
     {
         id: 206,
-        name: '',
+        name: 'ООО Платформа',
     },
     {
         id: 207,
-        name: '',
+        name: 'Геософт Эндолайн',
     },
     {
         id: 208,
-        name: '',
+        name: 'Goffshtein Dental Development Гоффштейн',
     },
     {
         id: 209,
-        name: '',
+        name: 'ООО Облачные технологии',
     },
     {
         id: 210,
-        name: '',
+        name: 'ООО Элисофт',
     },
     {
         id: 211,
-        name: '',
+        name: 'ООО Открытые решения',
     },
     {
         id: 212,
-        name: '',
+        name: 'ЭЛЕКТРОННЫЕ ОФИСНЫЕ СИСТЕМЫ',
     },
     {
         id: 213,
-        name: '',
+        name: 'ООО Датаджайл',
     },
     {
         id: 214,
-        name: '',
+        name: 'DBI',
     },
     {
         id: 215,
-        name: '',
+        name: 'ООО Имплекс Проекты',
     },
     {
         id: 216,
-        name: '',
+        name: 'YADRO',
     },
     {
         id: 217,
-        name: '',
+        name: 'Т-Банк',
     },
     {
         id: 218,
-        name: '',
+        name: 'ООО Горбилет',
     },
     {
         id: 219,
-        name: '',
+        name: 'ООО Синтека',
     },
     {
         id: 220,
-        name: '',
+        name: 'Digital Sail',
     },
     {
         id: 221,
-        name: '',
+        name: 'SBI Bank',
     },
     {
         id: 222,
-        name: '',
+        name: 'Группа компаний АТОЛЛис (АО ОТ-ОЙЛ)',
     },
     {
         id: 223,
-        name: '',
+        name: 'ООО Онли',
     },
     {
         id: 224,
-        name: '',
+        name: 'ООО Русский Букет',
     },
     {
         id: 225,

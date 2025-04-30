@@ -1,12 +1,7 @@
 import { observer } from 'mobx-react-lite';
 import formvalue from './Store/FormStore';
-// import { useEffect } from 'react';
-// import { useGetUsersQuery } from '../../api/UserApi';
 
 const FormMobx = observer(function FormMobxState() {
-    // useEffect(() => {
-    //     console.log(formvalue.users);
-    // }, [formvalue.users]);
     return (
         <>
             <form className='form-mobx'>
