@@ -897,87 +897,87 @@ export const data = [
     },
     {
         id: 225,
-        name: '',
+        name: 'ООО Промышленный консалтинг',
     },
     {
         id: 226,
-        name: '',
+        name: 'AlumniHub',
     },
     {
         id: 227,
-        name: '',
+        name: 'Directum',
     },
     {
         id: 228,
-        name: '',
+        name: 'RURU',
     },
     {
         id: 229,
-        name: '',
+        name: 'ООО Онлайн-школа Фоксфорд',
     },
     {
         id: 230,
-        name: '',
+        name: 'ООО Аддамант',
     },
     {
         id: 231,
-        name: '',
+        name: 'АО НИИ Точных Приборов',
     },
     {
         id: 232,
-        name: '',
+        name: 'ФГБУ Росгеолфонд',
     },
     {
         id: 233,
-        name: '',
+        name: 'ООО Эйайэксперт',
     },
     {
         id: 234,
-        name: '',
+        name: 'WILIX',
     },
     {
         id: 235,
-        name: '',
+        name: 'КОРУС Консалтинг',
     },
     {
         id: 236,
-        name: '',
+        name: 'ООО Корифей',
     },
     {
         id: 237,
-        name: '',
+        name: 'ООО PERFONE',
     },
     {
         id: 238,
-        name: '',
+        name: 'NAN Agency',
     },
     {
         id: 239,
-        name: '',
+        name: 'АО ГНИВЦ',
     },
     {
         id: 240,
-        name: '',
+        name: 'ООО Омегасофтвер Рус',
     },
     {
         id: 241,
-        name: '',
+        name: 'True Engineering',
     },
     {
         id: 242,
-        name: '',
+        name: 'Интернет-агентство BINN',
     },
     {
         id: 243,
-        name: '',
+        name: 'ГКУ Инфогород',
     },
     {
         id: 244,
-        name: '',
+        name: 'ООО Столик на одного',
     },
     {
         id: 245,
-        name: '',
+        name: 'Finstar Financial Group',
     },
     {
         id: 246,
