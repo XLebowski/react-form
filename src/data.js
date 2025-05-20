@@ -1061,15 +1061,15 @@ export const data = [
     },
     {
         id: 266,
-        name: '',
+        name: 'Spotware Systems Ltd',
     },
     {
         id: 267,
-        name: '',
+        name: 'Your Personal Agent',
     },
     {
         id: 268,
-        name: '',
+        name: 'SkillStaff',
     },
     {
         id: 269,
