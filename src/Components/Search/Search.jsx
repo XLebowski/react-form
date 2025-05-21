@@ -1,6 +1,6 @@
 // import React from 'react'
 import { useEffect, useState } from 'react';
-import { data } from '../../data.js';
+import { data } from '../../data';
 
 export default function Search() {
     const [search, setSearch] = useState('');
@@ -12,7 +12,6 @@ export default function Search() {
             item.name.toLowerCase().includes(search.toLowerCase())
         );
         setResults(dataResult);
-        // setSearch('');
     };
 
     useEffect(() => {
@@ -34,7 +33,11 @@ export default function Search() {
                 <button type='submit' className='search-button'>
                     Найти
                 </button>
-                <button type='button' className='search-button' onClick={() => setSearch('')}>
+                <button
+                    type='button'
+                    className='search-button'
+                    onClick={() => setSearch('')}
+                >
                     Очистить
                 </button>
             </form>
